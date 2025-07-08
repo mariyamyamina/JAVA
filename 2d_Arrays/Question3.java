@@ -24,8 +24,7 @@ public class Question3 {
 
      int arr[][] = {{10,20,30},{23,56,78},{56,34,11}};
      int n = arr.length;
-     int m = arr[0].length;
-
+    
      for(int i=0 ; i<n ;i++){
         for(int j=i ; j<n ;j++){
             int temp = arr[i][j];
